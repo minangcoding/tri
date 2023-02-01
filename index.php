@@ -10,7 +10,7 @@
   <title>Dashboard</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-white bg-white">
     <div class="container-fluid">
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -24,58 +24,38 @@
         </li>
       </ul><!--nav -->
 
-      <ul class="navbar justify-content-center">
-        <li class="nav-item">
-          <a href="#" class="navbar-brand">
-            <img src="tri_logo.jpg" class="logo">
-          </a>
-        </li>
-      </ul><!--justify-content-center -->
-
-      <ul class="navbar justify-content-end">
-        <li class="nav-item">
-          <a href="#" class="navbar-brand">
-            <img src="keranjang.png" class="logo">
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="navbar-brand">
-            <img src="account.png" class="logo">
-          </a>
-        </li>
-      </ul><!--nav justify-content-end -->
-    </div><!--container -->
+      <div>
+        <img src="foto/tri_logo.jpg" class="idx">
+      </div>
+      <div>
+        <img src="foto/keranjang.png" class="krj">
+        <img src="foto/account.png" class="krj">
+      </div>
+    </div>
   </nav>
- <!-- carousel -->
-  <div id="demo" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active">
-      </button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="1">
-      </button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="2">
-      </button>
-    </div><!--carousel-indicators -->
 
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="cantik.jpg" alt="foto" class="d-block" style="width: 100%;height: 80%;">
-      </div><!--carousel-item active -->
-      <div class="carousel-item">
-        <img src="cantik1.jpg" alt="foto" class="d-block" style="width: 100%;height:80%">
-      </div><!--carousel-item active -->
-      <div class="carousel-item">
-        <img src="cantik2.jpg" alt="foto" class="d-block" style="width: 100%;height:80%">
-      </div><!--carousel-item active -->
-    </div><!--carousel-inner -->
-    
-    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
-  </div><!-- carousel -->
-  
+  <!--Carousel nih do-->
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="foto/cantik.jpg" class="w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="foto/cantik1.jpg" class="w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="foto/cantik2.jpg" class="w-100" alt="...">
+          </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 </body>
 </html>
