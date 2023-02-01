@@ -1,0 +1,28 @@
+img{
+    height: 100px;
+    width: 350px;
+    background-color: #ffff;
+}
+h3{
+    text-align: center;
+}
+input{
+    border: 0ch;
+}
+a img{
+    width: 50;
+    height: 28;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
