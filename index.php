@@ -35,16 +35,17 @@
   </nav>
 
   <!--Carousel nih do-->
+  <div class="">
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="foto/cantik.jpg" class="w-100" alt="...">
+            <img src="foto/cantikcrop-edit_waifu2x_photo_noise3_scale.png" class="crsl w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="foto/cantik1.jpg" class="w-100" alt="...">
+            <img src="foto/crop-cantik1-editt_waifu2x_photo_noise3_scale.png" class="crsl w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="foto/cantik2.jpg" class="w-100" alt="...">
+            <img src="foto/" class="crsl w-100" alt="...">
           </div>
         </div>
         
@@ -57,5 +58,15 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+  </div>
+  <br><br><br><br>
+  <!--jumbotron nih do-->
+  <div class="jumbotron1">
+    <div class="row">
+      <div class="card" style="width: 18rem;">
+        <img src="foto/shop 1.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </div>
 </body>
 </html>
